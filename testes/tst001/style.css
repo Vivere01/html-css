@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(211, 204, 102);
+}
+h1{
+    background-color: rgb(162, 205, 243);
+    text-align: center;
+    padding: 3px;
+}
+
+p{
+font-size: 14pt;
+
+}
+img{
+   align-self: center;
+}
+ul{
+    font-size: 18pt;
+    font-weight: 10;
+    font-style: oblique;
+    background-color: azure;
+}

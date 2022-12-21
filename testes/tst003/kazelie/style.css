@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Fasthand & display=swap') ;
+
+@font-face {
+    font-family: 'fontetitulo';
+    src: url("revamped/Revamped.otf") format('opentype');
+}
+
+:root { 
+    --corb: rgb(228, 238, 182);
+    --corc: #72e9e9;
+    --primeiracorbody:rgb(177, 72, 58);
+    --primeiracordonav:  rgb(187, 72, 40);
+    
+    --fonte-títilo: 'fontetitulo';
+    --fonte-p: 'fontep';
+}
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+body {
+    background-color:rgb(177, 72, 58);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: rgb(177, 72, 58);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: rgb(245, 237, 237);
+    font-family:  'fontetitulo';
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+header > p {
+    font-family: 'fontep';
+    font-size: 1.4em;
+    color: white;
+    max-height: 1000px;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px black;
+}
+
+nav {
+
+    background-color:rgb(193, 217, 238) ;
+    padding:10px ;
+    box-shadow: 0px 3px 3px black;
+}
+
+nav > a{
+    color: rgb(28, 209, 88);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: rgb(179, 129, 129);
+    color: brown;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:  10px;
+
+}
+
+main h1 {
+    color: black;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+main img {
+    width: 50%;
+}
+
+
+.inline{
+    display: inline-block;
+    background-color: brown;
+    color: blanchedalmond;
+    margin: auto;
+}
+
+.seg{
+    background-color: brown;
+}
+
+.mdois {
+    background-color: darkgrey;
+}
+
+.l2{
+   width: 200px;
+   text-align: center;
+   background-color: darkgreen;
+}
+

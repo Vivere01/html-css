@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right,#91F2E9 ,#41BFB3);
+
+}
+h1 {
+    font: italic bolder 3em 'word sans', sans-serif;
+}
+
+p {
+  font-size: 19px;  
+}

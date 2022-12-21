@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'titulo';
+    src: url('revamped/Revamped.otf') format('opentype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategrey;
+}
+
+header {
+    margin: 3px;
+    padding: 3px;
+    background-color: rgb(67, 82, 82);
+}
+
+  h1 {
+    font-family: 'titulo';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'titulo';
+    text-align: center;
+}
+main {
+    text-align: center;
+    background-color: rgb(76, 119, 119);
+}
